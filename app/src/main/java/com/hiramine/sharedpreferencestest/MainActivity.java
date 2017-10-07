@@ -27,17 +27,19 @@ public class MainActivity extends AppCompatActivity
 		super.onCreate( savedInstanceState );
 		setContentView( R.layout.activity_main );
 
-		// チェックボックス
+		// チェックボックス（boolean型設定用）
 		checkBoxSetting = (CheckBox)findViewById( R.id.checkBoxSetting );
 
-		// スピナー
+		// スピナー（int型設定用）
 		spinnerSetting = (Spinner)findViewById( R.id.spinnerSetting );
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource( this, R.array.number_array, android.R.layout.simple_spinner_item );
 		adapter.setDropDownViewResource( android.R.layout.simple_spinner_dropdown_item );
 		spinnerSetting.setAdapter( adapter );
 
-		// テキストビュー
+		// テキストビュー（string型設定用）
 		editTextSetting1 = (EditText)findViewById( R.id.editTextSetting1 );
+
+		// テキストビュー（float型設定用）
 		editTextSetting2 = (EditText)findViewById( R.id.editTextSetting2 );
 
 		// 前回設定の読み込み
