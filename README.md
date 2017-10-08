@@ -11,8 +11,8 @@
 - Android Build Tools v26.0.0
 - Android Support Repository
 
-## Autor : 著者
-[Nobuki HIRAMINE : http://www.hiramine.com](http://www.hiramine.com)
+## Author : 作者
+Nobuki HIRAMINE : [http://www.hiramine.com](http://www.hiramine.com)
 
 ## License : ライセンス
 ```
